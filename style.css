@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body, input, button, select, textarea {
+body, input, select, textarea {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -193,4 +193,44 @@ form fieldset legend {
     background-repeat: no-repeat;
     background-position: center;
     
+}
+
+footer{
+    background: #F0F0F4;
+
+    height: 136px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px 64px;
+
+    margin-bottom: 100px;
+
+    border-top: 1px solid #D6D6D6;
+    border-radius: 0 0 8px 8px;
+}
+
+footer input{ 
+    height: 56px;
+    border: 0;
+    border-radius: 8px;
+    padding: 15px 40px;
+    background: #04D361;
+
+
+    color: #FFF;
+
+font-family: 'Archivo', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+}
+
+footer .button:hover{
+    background: #09b657;
+}
+
+input:invalid{
+    border: 1px solid red;
 }
